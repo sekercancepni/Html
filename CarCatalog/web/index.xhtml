@@ -1,0 +1,84 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml"
+      xmlns:h = "http://xmlns.jcp.org/jsf/html"
+      xmlns:ui = "http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p = "http://primefaces.org/ui"
+      xmlns:f = "http://xmlns.jcp.org/jsf/core" xmlns:form="http://www.springframework.org/tags/form">
+<h:head>
+    <title>Car Catalog</title>
+</h:head>
+<style type="">
+    .button {
+        color : black;
+        padding : 5px 30px;
+        text-align : center;
+        display : inline-block;
+        font-size : 30px;
+        border-radius : 8px;
+        margin : 20px;
+    }
+</style>
+<h:body>
+    <h1 align="center">Car Catalog</h1>
+    <h:form id="form">
+        <p:growl id="msgs" showDetail="true" />
+        <p:tabView>
+            <p:tab title="Find Car">
+                <h:panelGrid columns="2" cellpadding="10">
+                    <p:dataTable value="#{testBean.cars}" var="car" id="carList">
+                        <p:column headerText="name" sortable="true" sortBy="#{car.name}" filterBy="#{car.name}" filterMatchMode="contains">
+                            <h:outputText value="#{car.name}"></h:outputText>
+                        </p:column>
+                        <p:column headerText="model">
+                            <h:outputText value="#{car.model}"></h:outputText>
+                        </p:column>
+                        <p:column headerText="color">
+                            <h:outputText value="#{car.color}"></h:outputText>
+                        </p:column>
+                        <p:column headerText="weight">
+                            <h:outputText value="#{car.weight}"></h:outputText>
+                        </p:column>
+                        <p:column headerText="price">
+                            <h:outputText value="#{car.price}"></h:outputText>
+                        </p:column>
+                    </p:dataTable>
+                </h:panelGrid>
+            </p:tab>
+
+            <p:tab title="Add or Remove Car">
+                <label>Name : <p:inputText id="name" value="#{testBean.inputName}"></p:inputText></label>
+                <label>Model : <p:inputText id="model" value="#{testBean.inputModel}"></p:inputText></label>
+                <label>Color : <p:inputText id="color" value="#{testBean.inputColor}"></p:inputText></label><br></br><br></br>
+                <label>Weight : <p:inputText id="weight" value="#{testBean.inputWeight}"></p:inputText></label>
+                <label>Price : <p:inputText id="price" value="#{testBean.inputPrice}"></p:inputText></label><br></br>
+                <label>Deleted Index : <p:inputText id="index" value="#{testBean.inputIndex}"></p:inputText></label>
+
+                <h:commandButton styleClass="button" value="Add" action="#{testBean.add}"  update="display carList carList2"></h:commandButton>
+                <h:commandButton styleClass="button" value="Remove" action="#{testBean.remove}" update="display carList"></h:commandButton>
+
+                <h:panelGrid columns="2" cellpadding="5">
+                    <p:dataTable value="#{sessionBean.carList}" var="car" id="carList2">
+                        <p:column headerText="name" sortable="true" sortBy="#{car.name}" filterBy="#{car.name}" filterMatchMode="contains">
+                            <h:outputText value="#{car.name}" ></h:outputText>
+                        </p:column>
+                        <p:column headerText="model">
+                            <h:outputText value="#{car.model}"></h:outputText>
+                        </p:column>
+                        <p:column headerText="color">
+                            <h:outputText value="#{car.color}" ></h:outputText>
+                        </p:column>
+                        <p:column headerText="weight">
+                            <h:outputText value="#{car.weight}" ></h:outputText>
+                        </p:column>
+                        <p:column headerText="price">
+                            <h:outputText value="#{car.price}"></h:outputText>
+                        </p:column>
+                    </p:dataTable>
+                </h:panelGrid>
+            </p:tab>
+        </p:tabView>
+    </h:form>
+</h:body>
+</html>
