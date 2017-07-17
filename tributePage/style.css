@@ -1,0 +1,54 @@
+body {
+    margin-top:60px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #eee;
+    padding-top:48px;
+}
+
+.container .jumbotron{
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 6px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.imgdiv{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+img{
+    max-width:100%;
+}
+
+.quote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
