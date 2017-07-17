@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.header {
+    border: 5px solid #F6A200;
+}
+
+.site_logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.headerbg {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.menu {
+    clear: both;
+    font-size: 12px;
+    color: #333333;
+    margin-top: 90px;
+}
+
+.menu table thead tr th a{
+    text-decoration: none;
+}
+
+.container .header .menu th {
+    width: 106px;
+    border: 2px solid grey;
+}
+
+.container .header .menu th a {
+    color: #333;
+}
+
+.container .header .menu tr {
+    font-family: "Trebuchet MS";
+}
+
+.welcomeCtn {
+    float: left;
+}
+
+.welcomeCtn h2 {
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    margin: 10px 0 0 5px;
+}
+
+.welcomeCtn img {
+    border: 1px solid #0760f9;
+    float: left;
+    width: 310px;
+}
+
+.welcomeCtn .infoCtn {
+    position: relative;
+    float: left;
+    width: 390px;
+    margin: 10px 0 0 10px;
+    line-height: 17px;
+}
+
+.infoCtn .baslik {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #333333;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    line-height: 16px;
+}
+
+.home_page_login {
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+.form_item {
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.input1 {
+    font-family: "Trebuchet MS";
+    font-size: 8pt;
+    background-color: #FFFFFF;
+    border: 1px solid #7F9DB9;
+    font-weight: normal;
+    color: black;
+    height: 15px;
+    float: right;
+}
+
+.login_panel {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flow-root;
+}
+
+.loginBtn {
+    background-color: #505d62;
+    padding: 10px;
+    float: left;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    text-shadow: -2px -1px 2px #666;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+a.text5 {
+    font-family: "Trebuchet MS";
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.form_item_login {
+    margin-top: 5px;
+    float: right;
+    margin-right: 20px;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.divide {
+    background-image: url(https://hotelspro.com/images/cizg3.jpg);
+    height: 2px;
+    margin-top: 10px;
+}
+
+.random {
+    margin-top: 10px
+}
+
+.random img{
+    padding-right: 10px;
+}
+
+.baslik3 {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.baslik3 a {
+    color: #333333;
+}
+
+.footer {
+    background-color: #F6A200;
+    width: 1000px;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.baslik2 {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    margin: 20px auto;
+    width: 460px;
+}
+
+.menu th {
+    text-align: center;
+}
+
+.met_global_logo {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo {
+    padding-right: 30px;
+}
