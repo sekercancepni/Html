@@ -1,0 +1,195 @@
+
+body{
+    color: #666;
+    background: #888;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    overflow: auto;
+}
+#banner {
+    background-color: #722872 !important;
+    height: 80px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: #592059;
+}
+#banner .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#banner .container img{
+    margin:15px 0;
+    height:50px;
+}
+.container li{
+    padding: 0px 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 0px 12px;
+}
+.container ul{
+    display:flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.container a{
+    color:white;
+}
+.container a:hover{
+    color: black;
+}
+.main .header{
+    background: #aaa;
+    color: #fff;
+    text-align: right;
+    padding: 50px 30px;
+    align-items: flex-end;
+    align-content: space-around;
+    display: flex;
+    width: 1024px;
+}
+.main .header .intro-text{
+    max-width: 1024px;
+    text-align: right;
+    margin-bottom: 30px;
+    width: 610px;
+    margin: auto;
+}
+.main .header img{
+    border-radius: 50%;
+    margin: 30px 0 10px;
+    max-width: 80%;
+    height: auto;
+    width: 250px;
+    margin-left:50px;
+}
+.main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.portfolio{
+    background: #eee;
+    padding: 40px 0;
+}
+h2,h3{
+    color: #888;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.stardark {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+.portfolio .grid{
+    padding: 0;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 20px;
+}
+.portfolio .grid li{
+    max-width: 420px;
+    margin:20px;
+}
+.main .contact{
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background: #eee;
+    padding: 40px 0;
+    display: block;
+}
+form{
+    width: 40%;
+    margin-left: 50px;
+}
+.formItem{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+.formItem label{
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    vertical-align: baseline;
+    opacity: 0;
+    max-width: 100%;
+    font-weight: 700;
+}
+.formItem input{
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+    width: 100%;
+}
+textarea{
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+    width: 100%;
+}
+.contact form button{
+    margin-top: 30px;
+}
+.contact .contactText{
+    max-width: 40%;
+    margin-left: 50px;
+}
+.contact .contactText p{
+    margin-top: 10px;
+}
+.contact .contactText p:nth-last-child(2){
+    margin-top: 35px;
+}
+.contact .contactText p:last-child{
+    margin-top: 220px;
+}
+.footer{
+    color: #fff;
+    background-color: #aaa;
+    text-align: center;
+}
+.footerAbove{
+    padding-top: 50px;
+    width: 80%;
+    color: #fff;
+    margin:0 auto;
+}
+.footer .footerAbove div{
+    margin: 50px auto;
+    width: 250px;
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 30px;
+}
+.footer .footerBelow{
+    padding: 25px 0;
+    background-color: #722872;
+    text-align: center;
+}
