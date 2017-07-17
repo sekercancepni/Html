@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="Facebook:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="Facebook.war">
-      <element id="artifact" artifact-name="Facebook:war exploded" />
-    </root>
-  </artifact>
-</component>
