@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="TributePage:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="tributePage.war">
-      <element id="artifact" artifact-name="TributePage:war exploded" />
-    </root>
-  </artifact>
-</component>
