@@ -1,0 +1,226 @@
+body {
+    margin:0px;
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.bluebar {
+    height: 82px;
+    min-width: 980px;
+    background-color:#3b5998;
+    border-bottom: 1px solid #133783;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%)
+}
+
+.bluebar .menubar{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.bluebar .menubar .facebookimg{
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+.login_container{
+    float: right;
+    height: 82px;
+    width: 400px;
+}
+
+.login_panel{
+    float: left;
+    margin-top: 15px;
+}
+
+.password_panel{
+    padding-left: 14px;
+}
+
+.uibutton_login{
+    float: left;
+    margin-top: 35px;
+    padding-left: 14px;
+}
+
+.uibutton {
+    border: 1px solid #29487d;
+    background-color: #4267b2;
+    padding: 2px 6px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.login_container .inputtext{
+    width: 142px;
+    border: 1px solid #1d2a5b;
+    padding-bottom: 4px;
+    padding: 3px;
+}
+
+.label{
+    float: left;
+    height: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 1px;
+}
+
+.global_container{
+    background-color: #e9ebee;
+    height: 600px;
+    min-width: 980px;
+    background-image: linear-gradient(#ffffff, #e9ebee 50%);
+}
+
+.global_content {
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.global_content .content{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 450px;
+    line-height: 29px;
+}
+
+.sign_up_panel {
+    float: left;
+    max-width: 400px;
+}
+.sign_up_panel .title{
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sign_up_panel .statement{
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: normal;
+}
+.sign_up_table{
+    width: 400px;
+    height: 444px;
+}
+
+.full_name_field {
+    width: 400px;
+    height: 49px;
+}
+
+.sign_up_table .textbox{
+    margin-bottom: 10px;
+    float: left;
+    background: white;
+    border-radius: 5px;
+    width: 194px;
+}
+
+.sign_up_table .textbox_name{
+    margin-right: 8px;
+}
+
+.eposta_field {
+    width: 400px;
+    height: 49px;
+}
+
+.sign_up_panel .eposta_password {
+    width: 400px;
+}
+
+
+.input{
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+}
+
+.input_name_surname{
+    width: 172px;
+}
+
+.input_eposta{
+    width: 377px;
+}
+
+.birthdate_panel{
+    width: 400px;
+    height: 59px;
+}
+
+.birthdate_panel .title{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.birthdate_format{
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+}
+
+.birthdate_help{
+    float:right;
+    margin-right:20px;
+    font-size: 11px;
+    max-width: 150px;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #365899;
+    text-decoration: none;
+}
+
+.gender_panel{
+    border-radius: 4px;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 0px 5px 4px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.gender_label{
+    color:#1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0px 10px 0px 3px;
+}
+
+.sign_up_button{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 126%;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reg_page_msg{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
