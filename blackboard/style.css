@@ -1,0 +1,132 @@
+
+body {
+    background-color: #f8f8f8;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.loginImage{
+    text-align: center;
+    margin-top: 100px;
+    width: 430px;
+    margin: 100px auto 60px;
+}
+
+.loginBox {
+    width: 450px;
+    margin:0 auto;
+    height: 450px;
+}
+
+.loginBox form label {
+    color: #666;
+    display: block;
+    font-size: 100%;
+    letter-spacing: 1px;
+    padding: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.loginBox form input[type="text"]{
+    border-radius: 5px 5px 5px 5px;
+    background: #efefef;
+    padding: 6px;
+    border: 4px solid #777;
+    color: #666;
+    font-weight: bold;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 120%;
+    width: 100%;
+    letter-spacing: normal !important;
+}
+
+.loginBox form input[type="button"] {
+    font-size: 130%;
+    margin: 0;
+    width: auto;
+    min-width: 130px;
+    padding: 9px 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    margin-top: 20px;
+}
+
+.loginBox form span {
+    float: right;
+    margin-top: 20px;
+}
+
+.loginAnnouncements {
+    clear: both;
+    padding: 0 0 7px 0;
+    margin: 0 auto;
+}
+
+.loginAnnouncements ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+    list-style: none;
+}
+
+.loginAnnouncements li {
+    background: #fff;
+    color: #666;
+    font-size: 95%;
+    padding: 18px 24px 12px;
+    text-align: justify;
+    vertical-align: top;
+    margin: 0 0 12px 0;
+}
+
+.announcementDate {
+    float: right;
+    font-style: italic;
+}
+
+.loginAnnouncements ul li strong {
+    color: #000;
+    margin: 0 0 12px;
+    font-size: 115%;
+}
+
+.copyRight {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.copyRight .logo {
+    margin: 0 0 6px;
+    padding: 0;
+    position: relative;
+    background: #efede3;
+    display: inline-block;
+    width: 45px;
+}
+
+.copyRight .legal {
+    color: rgba(0,0,0,0.6);
+    font-size: smaller;
+    font-size: 10px;
+}
+
+.additionalInfo {
+    margin-bottom: 30px;
+}
+
+.additionalInfo p {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.additionalInfo p a {
+    color: #1874a4;
+}
